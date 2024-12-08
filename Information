@@ -1,0 +1,48 @@
+# Wissenschaftlicher Poster
+
+## Introduction
+
+[Statista](https://de.statista.com/statistik/daten/studie/198959/umfrage/anzahl-der-smartphonenutzer-in-deutschland-seit-2010/)  
+Die durchschnittliche tägliche Bildschirmzeit eines Erwachsenen in Deutschland beträgt laut einer Umfrage von Bitkom Research etwa 3,5 Stunden. Diese Studie lässt jedoch offen, ob regionale Unterschiede in der Bildschirmzeit existieren und ob diese auf eine systematische Abhängigkeit hindeuten könnten. Um diese Fragestellung zu untersuchen, habe ich eine eigene Erhebung durchgeführt, die die Bildschirmzeit von Studierenden der Technischen Hochschule Ingolstadt (THI) und der Technischen Hochschule Mittelhessen (THM) erfasst. Ziel dieser Untersuchung ist es, mögliche regionale Unterschiede in der Bildschirmzeit zu identifizieren.
+
+---
+
+## Material and Method
+
+Die Datenerhebung erfolgte online über einen Zeitraum von zwei Tagen. Der Umfragelink wurde gezielt in den Semestergruppen der THI und THM geteilt, um eine hohe Teilnahmequote zu erzielen und Bias zu minimieren. Dennoch könnte ein Bias durch die Teilnahmevoraussetzung (Nutzung eines Smartphones) entstanden sein.
+
+Die Stichprobengröße umfasst **n = 56** Teilnehmende. Ein Histogramm der erhobenen Daten zeigt, dass die Bildschirmzeit nicht vollständig normalverteilt ist. Daher wurde ein **Wilcoxon-Mann-Whitney-Test** angewendet, da dieser Test robust gegenüber Verletzungen der Normalverteilungsannahme ist.  
+Zur Analyse der Daten und Erstellung der Visualisierungen wurde die Statistiksoftware **JMP** verwendet.
+
+---
+
+## Results
+
+### Power Check
+
+Bei einem Signifikanzniveau von **10% (α = 0,1)** kann ein Unterschied von 2 Stunden mit einer Power von **90,5%** detektiert werden. Dies deutet darauf hin, dass die vorliegende Stichprobengröße für kleinere Unterschiede möglicherweise nicht ausreichend ist. Für künftige Untersuchungen empfehle ich daher eine größere Stichprobe, um die statistische Aussagekraft weiter zu erhöhen.
+
+### Wilcoxon-Mann-Whitney-Test
+
+- **H₀**: Es besteht kein regionaler Unterschied in der Bildschirmzeit.  
+- **H₁**: Es besteht ein regionaler Unterschied in der Bildschirmzeit.
+
+**p = 0,2891 > 0,1**, also ist der Test nicht signifikant, und wir können somit die Nullhypothese (H₀) nicht ablehnen.
+
+---
+
+## Discussion
+
+In meinem Hypothesentest konnte die Nullhypothese (H₀) nicht verworfen werden, was auf mehrere mögliche Ursachen zurückzuführen ist:  
+
+1. **Stichprobengröße**: Die über zwei Tage gesammelten Daten waren möglicherweise nicht groß genug, um kleinere Unterschiede, wie beispielsweise eine Stunde Bildschirmzeit, mit ausreichender statistischer Power nachzuweisen.  
+2. **Repräsentativität**: Die erhobenen Daten könnten die Studierenden der Regionen Ingolstadt und Mittelhessen nicht ausreichend repräsentieren, da die Datenerhebung ausschließlich online erfolgte. Dies könnte zu einem Auswahlbias geführt haben, da nur Personen mit einem Smartphone und Internetzugang an der Umfrage teilnehmen konnten.  
+3. **Regionale Ähnlichkeit**: Die Regionen Ingolstadt und Mittelhessen sind möglicherweise aus einer kausalen Perspektive zu ähnlich, um signifikante Unterschiede in der Bildschirmzeit aufzuzeigen. Unterschiede in soziokulturellen oder infrastrukturellen Faktoren scheinen weniger ausgeprägt zu sein.  
+
+Ein Vergleich zwischen deutlicher unterschiedlichen Regionen, wie beispielsweise zwischen ländlichen und städtischen Gebieten oder zwischen östlichen und westlichen Regionen Deutschlands, könnte künftig zu aussagekräftigeren Ergebnissen führen, da hier größere Unterschiede zu erwarten sind.
+
+---
+
+## Conclusion
+
+In dieser Studie konnten keine signifikanten Unterschiede in der Bildschirmzeit zwischen den Studierenden der THI und der THM festgestellt werden. Die Ergebnisse deuten darauf hin, dass regionale Unterschiede in diesem Fall keine wesentliche Rolle spielen. Zukünftige Untersuchungen sollten größere Stichproben und differenziertere Regionstypen berücksichtigen, um mögliche systematische Effekte besser nachweisen zu können.
